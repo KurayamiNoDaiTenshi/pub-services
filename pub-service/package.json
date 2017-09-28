@@ -1,0 +1,30 @@
+{
+  "name": "pub-services",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KurayamiNoDaiTenshi/pub-service.git"
+  },
+  "author": "KurayamiNoDaiTenshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KurayamiNoDaiTenshi/pub-service/issues"
+  },
+  "homepage": "https://github.com/KurayamiNoDaiTenshi/pub-service#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  }
+}

@@ -1,0 +1,95 @@
+[
+  {
+    "name":"Au trois copain",
+    "owner": {
+      "firstName": "Angelo",
+      "lastName": "Basso",
+      "mail": "angelo67170@gmail.com"
+    },
+    "openDays": [
+      "Monday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "openHours": {
+      "start": 8,
+      "end": 2
+    },
+    "beers": [
+      {
+        "type": "Blonde",
+        "name": "Triple Karmeliet"
+      },
+      {
+        "type":"Blonde",
+        "name":"Bête des voges"
+      }
+    ]
+  },
+  {
+    "name":"Chez l'habitant",
+    "owner": {
+      "firstName": "Julien",
+      "lastName": "Bertrand",
+      "mail": "jables@live.fr"
+    },
+    "openDays": [
+      "Saturday",
+      "Sunday"
+    ],
+    "openHours": {
+      "start": 6,
+      "end": 0
+    },
+    "beers": [
+      {
+        "type": "Blonde",
+        "name": "Picon Bière"
+      },
+      {
+        "type":"Blonde",
+        "name":"Bête des voges"
+      },
+      {
+        "type":"Blonde",
+        "name":"Triple Karmeliet"
+      }
+    ]
+  },
+  {
+    "name":"Arawak",
+    "owner": {
+      "firstName": "Nicolas",
+      "lastName": "Hodicq",
+      "mail": "nhodicq@bewizyu.com"
+    },
+    "openDays": [
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "openHours": {
+      "start": 5,
+      "end": 2
+    },
+    "beers": [
+      {
+        "type": "blonde",
+        "name": "Picon"
+      },
+      {
+        "type":"Blonde",
+        "name":"Picon citron"
+      },
+      {
+        "type":"Blonde",
+        "name":"Triple Karmeliet"
+      }
+    ]
+  }
+]
