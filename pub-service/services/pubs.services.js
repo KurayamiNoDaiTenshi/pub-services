@@ -1,6 +1,5 @@
-var pubs = require('../mocks/pubs.json');
-var moment = require('moment');
-var _ = require('lodash');
+const pubs = require('../mocks/pubs.json');
+const _ = require('lodash');
 
 function listAllPubs() {
     return pubs;
@@ -12,6 +11,6 @@ function listOpenPubs(days) {
     });
 }
 module.exports = {
-    listAllPubs: listAllPubs,
-    listOpenPubs: listOpenPubs
+    listAllPubs,
+    listOpenPubs
 };

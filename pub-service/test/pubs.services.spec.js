@@ -1,7 +1,7 @@
-var pubservices = require('../index').services.pubServices;
-var chai = require('chai');
-var expect = chai.expect;
-var moment = require('moment');
+const pubservices = require('../index').services.pubServices;
+const chai = require('chai');
+const expect = chai.expect;
+const moment = require('moment');
 describe('liste des pubs', function () {
     describe('lister tout les pubs', function () {
         it('devrais retourner la valeur 3 correspondant au nombre de pubs dans notre liste', function () {
