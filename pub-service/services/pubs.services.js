@@ -10,7 +10,5 @@ function listOpenPubs(days) {
        return _.includes(pub.openDays, days);
     });
 }
-module.exports = {
-    listAllPubs,
-    listOpenPubs
+exports = {listAllPubs,listOpenPubs
 };

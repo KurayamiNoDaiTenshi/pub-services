@@ -1,12 +1,10 @@
 const pubservices = require('../../pub-service/');
 const moment = require('moment');
 function getListPub(){
-    console.log( pubservices.services.pubServices.listAllPubs());
+    console.log( pubservices.services.pubServices.list);
 }
 function getOpenPubs(){
     console.log(pubservices.services.pubServices.listOpenPubs(moment.format('dddd')));
 }
-module.exports = {
-    getListPub,
-    getOpenPubs
-};
+export {getListPub,getOpenPubs}
+
